@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="images/puzzle.png"
+			type="image/x-icon"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Ultimate Trivia Zone</title>
+	</head>
+
+	<body>
+		<header class="nav-bar">
+			<nav class="nav-list">
+				<img src="images/puzzle.png" alt="logo" />
+				<h1>Ultimate Trivia Zone</h1>
+			</nav>
+		</header>
+
+		<!-- future implementation -->
+		<aside class="categories inline hidden">
+			<!-- <button>All</button> -->
+			<button id="category-select" class="entertainment">
+				Entertainment
+			</button>
+			<button id="category-select" class="sports">Sports</button>
+			<button id="category-select" class="history">History</button>
+			<button id="category-select" class="math">Math</button>
+			<button id="category-select" class="general">
+				General Knowledge
+			</button>
+			<button id="category-select" class="science">Science</button>
+			<button id="category-select" class="mythology">Mythology</button>
+			<button id="category-select" class="geography">Geography</button>
+			<button id="category-select" class="politics">Politics</button>
+			<button id="category-select" class="art">Art</button>
+			<button id="category-select" class="celebrities">
+				Celebrities
+			</button>
+			<button id="category-select" class="animals">Animals</button>
+			<button id="category-select" class="vehicles">Vehicles</button>
+		</aside>
+
+		<!-- base game -->
+		<main class="container inline">
+			<div class="home-page">
+				<h1 class="app-title">Let's Play!</h1>
+				<button class="start-game">Start!</button>
+			</div>
+
+			<div class="question-page"></div>
+
+			<div class="game-over"></div>
+		</main>
+
+		<!-- local storage -->
+		<footer class="game-history"></footer>
+		<script src="app.js"></script>
+	</body>
+</html>
